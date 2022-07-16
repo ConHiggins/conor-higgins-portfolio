@@ -7,11 +7,12 @@
     font-size: 1.5rem;
     background-color: $bg-col;
     color: $font-col;
+    scroll-behavior: smooth;
 }
 
 body {
 
     margin:1rem;
-    border: 2px solid $alt-col;
+    border: 2px solid $pri-col;
     border-top: none ;
 }

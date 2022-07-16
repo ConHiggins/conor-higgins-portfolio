@@ -1,0 +1,71 @@
+@use "../vars.scss" as *;
+
+.portfolio {
+
+    border-color: $alt-col;
+    margin: 1rem;
+}
+
+.portfolio__project {
+
+    display: grid;
+    grid-template-rows: 0.25fr 0.25fr 0.25fr 0.25fr;
+    grid-template-columns: 0.5fr 0.5fr;
+}
+
+.portfolio__project-img {
+    border-radius: 1rem;
+}
+
+@media screen and (min-width:320px) {
+
+        .portfolio__title {
+            font-size: 2rem;
+            font-family: "Cormorant";
+            u{ 
+                text-underline-offset: 1rem;
+                font-size: 2rem;
+            }
+        }
+
+        .portfolio__project-img {
+
+            max-width: 10rem;
+        }
+
+        .portfolio__project-title {
+            font-family: "Cormorant";
+            grid-row: 2;
+        }
+
+        .portfolio__project-tagline {
+            grid-row: 3;
+        }
+        .portfolio__button-wrapper {
+            grid-row: 4;
+        }
+           
+}
+@media screen and (min-width:768px) {
+
+        .portfolio__title {
+            font-size: 3rem;
+            u{ 
+                margin: 0;
+                font-size: 3rem;
+            }
+        }
+        
+    
+}
+@media screen and (min-width:1024px) {
+
+        .portfolio__title {
+        font-size: 4rem;
+        u{ 
+            margin: 0;
+            font-size: 4rem;
+        }
+    }
+    
+}

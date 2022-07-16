@@ -5,10 +5,11 @@
   font-size: 1.5rem;
   background-color: #091211;
   color: #F7EAAB;
+  scroll-behavior: smooth;
 }
 
 body {
   margin: 1rem;
-  border: 2px solid #90a955;
+  border: 2px solid #595D3A;
   border-top: none;
 }/*# sourceMappingURL=App.css.map */

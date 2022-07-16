@@ -4,9 +4,9 @@ const Nav = () => {
 
     return (
         <section className="navbar">
-            <a href="#" className="navbar__link">Home</a>
-            <a href="#" className="navbar__link">Portfolio</a>
-            <a href="#" className="navbar__link">About</a>
+            <a href="Home" className="navbar__link">Home</a>
+            <a href="<Portfolio />" className="navbar__link">Portfolio</a>
+            <a href=".about" className="navbar__link">About</a>
         </section>
     )
 }
