@@ -4,6 +4,7 @@ const Nav = () => {
 
     return (
         <section className="navbar">
+            <p className="name">Conor Higgins</p>
             <a href="Home" className="navbar__link">Home</a>
             <a href="<Portfolio />" className="navbar__link">Portfolio</a>
             <a href=".about" className="navbar__link">About</a>

@@ -11,14 +11,27 @@ const Portfolio = () => {
     const pImage = projects[i].image;    
     const pTitle = projects[i].title;    
     const pTag = projects[i].tag;
+    const pLink = projects[i].link;
     
     projDisplay.push(
             <div className="portfolio__project">
-                <img src={pImage} alt="project image" className="portfolio__project-img" />
-                <p className="portfolio__project-title">{pTitle}</p>
+                <a href={pLink}>
+                    <img src={pImage} 
+                    alt="project image" 
+                    className="portfolio__project-img" />
+                </a>
+                <a href={pLink}>
+                    <p className="portfolio__project-title">
+                    {pTitle}
+                    </p>
+                </a>
                 <p className="portfolio__project-tagline">{pTag}</p>
                 <div className="portfolio__button-wrapper">
-                    <button className="portfolio__button"></button>
+                    <a href={pLink}>
+                        <button className="portfolio__button">
+                            
+                        </button>
+                    </a>
                     <button className="portfolio__button"></button>
                 </div>
             </div>

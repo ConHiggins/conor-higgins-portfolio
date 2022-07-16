@@ -4,12 +4,14 @@ export const waveDash = {
     image: waveDashGif,
     title: "waveDash",
     tag: "JavaScript game",
+    link: "https://conhiggins.github.io/oxnaGame/",
 };
 
 export const calculator = {
     image: calculatorPNG,
     title: "Calculator",
     tag: "JavaScript web app",
+    link: "https://conhiggins.github.io/oxnaCalculator/",
 };
 
 export const projects = [waveDash, calculator];

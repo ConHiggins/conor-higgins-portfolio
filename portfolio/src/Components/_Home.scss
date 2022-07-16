@@ -1,5 +1,7 @@
 @use "../_vars.scss" as *;
 
+
+
 .home {
 
     border-color: $sec-col;
@@ -13,6 +15,7 @@
             font-size: 2rem;
             font-family: "Cormorant";
             u{ 
+                font-family: "Cormorant";
                 text-underline-offset: 1rem;
                 font-size: 2rem;
             }
