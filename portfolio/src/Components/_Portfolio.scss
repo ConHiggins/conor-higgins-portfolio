@@ -4,20 +4,35 @@
 
     border-color: $alt-col;
     margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .portfolio__project {
 
     display: grid;
     grid-template-rows: 0.25fr 0.25fr 0.25fr 0.25fr;
-    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-columns: 0.5fr;
+    border: 2px solid $font-col;
+    border-top: none;
+    border-bottom: none;
 }
 
 .portfolio__project-img {
-    border-radius: 1rem;
+    border-radius: 0.5rem;
 }
 
 @media screen and (min-width:320px) {
+
+    .portfolio {
+        border-left: 0;
+        border-right: 0;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+    }
 
         .portfolio__title {
             font-size: 2rem;
@@ -27,7 +42,61 @@
                 font-size: 2rem;
             }
         }
+        .portfolio__project {
 
+            margin: 1.2rem;
+            padding: 0.25rem;
+
+        }
+        .portfolio__project-img {
+
+            max-width: 10rem;
+        }
+        .portfolio__project-title {
+            font-family: "Cormorant";
+            grid-row: 2;
+            font-size: 1.5rem;
+        }
+
+        .portfolio__project-tagline {
+            grid-row: 3;
+            font-size: 1rem;
+            font-style: italic;
+        }
+        .portfolio__button-wrapper {
+            grid-row: 4;
+
+            .portfolio__button {
+
+                width: 1.5rem;
+                height: 1.5rem;
+                border-radius: 50%;
+                background: $pri-col;
+                border: none;
+                margin: 0.2rem;
+            }
+        }
+           
+}
+@media screen and (min-width:768px) {
+
+    .portfolio {
+        
+    flex-direction: row;
+    }
+        .portfolio__title {
+            font-size: 3rem;
+            u{ 
+                margin: 0;
+                font-size: 3rem;
+            }
+        }
+        .portfolio__project {
+
+            margin: 1.5rem;
+            padding: 0.5rem;
+
+        }
         .portfolio__project-img {
 
             max-width: 10rem;
@@ -35,25 +104,11 @@
 
         .portfolio__project-title {
             font-family: "Cormorant";
-            grid-row: 2;
         }
 
         .portfolio__project-tagline {
-            grid-row: 3;
         }
         .portfolio__button-wrapper {
-            grid-row: 4;
-        }
-           
-}
-@media screen and (min-width:768px) {
-
-        .portfolio__title {
-            font-size: 3rem;
-            u{ 
-                margin: 0;
-                font-size: 3rem;
-            }
         }
         
     
@@ -67,5 +122,25 @@
             font-size: 4rem;
         }
     }
+    .portfolio__project {
+
+            margin: 2rem;
+            padding: 1rem;
+
+        }
+        .portfolio__project-img {
+
+                max-width: 15rem;
+            }
+
+        .portfolio__project-title {
+            font-size: 2rem;
+        }
+
+        .portfolio__project-tagline {
+            font-size: 1rem;
+        }
+        .portfolio__button-wrapper {
+        }
     
 }

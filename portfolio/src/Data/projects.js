@@ -1,4 +1,5 @@
 import waveDashGif from "../Assets/waveDash_gif_1.gif";
+import calculatorPNG from "../Assets/calculator_1.gif";
 export const waveDash = {
     image: waveDashGif,
     title: "waveDash",
@@ -6,7 +7,7 @@ export const waveDash = {
 };
 
 export const calculator = {
-    image: "",
+    image: calculatorPNG,
     title: "Calculator",
     tag: "JavaScript web app",
 };
