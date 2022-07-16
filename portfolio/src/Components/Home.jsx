@@ -4,14 +4,14 @@ import "./_Home.scss";
 const Home = () => {
 
     return (
-    <fieldset>
-        <legend>Junior Software Developer</legend>
-        <ul>
-            <li>JS</li>
-            <li>React</li>
-            <li>Java</li>
-            <li>HTML5</li>
-            <li>SCSS</li>
+    <fieldset className="home">
+        <legend className="home__title">Junior<br/> Software<br/> <u>Dev</u>eloper</legend>
+        <ul className="home__languages-list">
+            <li className="home__languages-listitem">JS</li>
+            <li className="home__languages-listitem">React</li>
+            <li className="home__languages-listitem">Java</li>
+            <li className="home__languages-listitem">HTML5</li>
+            <li className="home__languages-listitem">SCSS</li>
         </ul>
     </fieldset>
 

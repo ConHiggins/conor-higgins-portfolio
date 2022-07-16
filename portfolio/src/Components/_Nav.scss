@@ -1,0 +1,14 @@
+@use "../_vars.scss" as *;
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    
+}
+
+.navbar__link {
+    background: none;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}

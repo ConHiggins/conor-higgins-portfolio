@@ -4,8 +4,8 @@ const Portfolio = () => {
 
     return (
 
-        <div className="portfolio">
-
+        <fieldset className="portfolio">
+            <legend className="portfolio__title">Portfolio</legend>
             <div className="portfolio__project">
                 <img src="#" alt="project image" className="portfolio__project-img" />
                 <p className="portfolio__project-title">Project_1</p>
@@ -13,7 +13,7 @@ const Portfolio = () => {
                 <button className="portfolio__button"></button>
                 <button className="portfolio__button"></button>
             </div>
-        </div>
+        </fieldset>
     );
 
 };
