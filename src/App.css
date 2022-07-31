@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant&family=Josefin+Sans:wght@300&display=swap");
+* {
+  margin: 0;
+  font-family: "Josefin Sans";
+  font-size: 1.5rem;
+  background-color: #091211;
+  color: #F7EAAB;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 1rem;
+  border: 2px solid #595D3A;
+  border-top: none;
+}/*# sourceMappingURL=App.css.map */
