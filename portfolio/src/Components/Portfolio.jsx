@@ -12,6 +12,16 @@ const Portfolio = () => {
     const pTitle = projects[i].title;    
     const pTag = projects[i].tag;
     const pLink = projects[i].link;
+    let pButtons;
+    if(pLink !== "#") {
+         pButtons = <div className="portfolio__button-wrapper">
+                    <a href={pLink}>
+                        <button className="portfolio__button"></button>
+                    </a>
+                    <button className="portfolio__button"></button>
+                </div>
+    }
+    else { pButtons = <p>Not currently deployed</p>}
     
     projDisplay.push(
             <div className="portfolio__project">
@@ -26,14 +36,7 @@ const Portfolio = () => {
                     </p>
                 </a>
                 <p className="portfolio__project-tagline">{pTag}</p>
-                <div className="portfolio__button-wrapper">
-                    <a href={pLink}>
-                        <button className="portfolio__button">
-                            
-                        </button>
-                    </a>
-                    <button className="portfolio__button"></button>
-                </div>
+                {pButtons}
             </div>
         )
 

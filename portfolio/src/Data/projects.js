@@ -1,5 +1,6 @@
 import waveDashGif from "../Assets/waveDash_gif_1.gif";
 import calculatorPNG from "../Assets/calculator_1.gif";
+import mountainsGif from "../Assets/mountains_1.gif";
 export const waveDash = {
     image: waveDashGif,
     title: "waveDash",
@@ -14,4 +15,11 @@ export const calculator = {
     link: "https://conhiggins.github.io/oxnaCalculator/",
 };
 
-export const projects = [waveDash, calculator];
+export const mountains = {
+    image: mountainsGif,
+    title: "Mountains at Dusk",
+    tag: "Three.js environment",
+    link: "#",
+};
+
+export const projects = [waveDash, calculator, mountains];

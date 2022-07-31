@@ -1,6 +1,6 @@
 
 import "./_Home.scss";
-import threeScript from "../threeC/main.js";
+import Canvas from "./Canvas.jsx"
 
 const Home = () => {
 
@@ -17,8 +17,6 @@ const Home = () => {
                     <li className="home__languages-listitem">SCSS</li>
                 </ul>
                 
-            <canvas id="bg"></canvas>   
-            <script type="module" src={threeScript}></script>
             </fieldset>
     </>
     );
