@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/oxnaReactPortfolio/static/css/main.9d49af2e.css",
-    "main.js": "/oxnaReactPortfolio/static/js/main.c714b38f.js",
+    "main.css": "/oxnaReactPortfolio/static/css/main.ceaaa130.css",
+    "main.js": "/oxnaReactPortfolio/static/js/main.d9fa19e5.js",
     "static/js/787.1ed0c42c.chunk.js": "/oxnaReactPortfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/mountains_1.gif": "/oxnaReactPortfolio/static/media/mountains_1.9dd8ddb91ec9aad81a8b.gif",
     "static/media/calculator_1.gif": "/oxnaReactPortfolio/static/media/calculator_1.0ce65bb3c519db02d5b1.gif",
@@ -9,12 +9,12 @@
     "static/media/profile.png": "/oxnaReactPortfolio/static/media/profile.14ddce292ae882cc0301.png",
     "static/media/logo.svg": "/oxnaReactPortfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/oxnaReactPortfolio/index.html",
-    "main.9d49af2e.css.map": "/oxnaReactPortfolio/static/css/main.9d49af2e.css.map",
-    "main.c714b38f.js.map": "/oxnaReactPortfolio/static/js/main.c714b38f.js.map",
+    "main.ceaaa130.css.map": "/oxnaReactPortfolio/static/css/main.ceaaa130.css.map",
+    "main.d9fa19e5.js.map": "/oxnaReactPortfolio/static/js/main.d9fa19e5.js.map",
     "787.1ed0c42c.chunk.js.map": "/oxnaReactPortfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d49af2e.css",
-    "static/js/main.c714b38f.js"
+    "static/css/main.ceaaa130.css",
+    "static/js/main.d9fa19e5.js"
   ]
 }

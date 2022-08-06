@@ -1,6 +1,7 @@
 import waveDashGif from "../Assets/waveDash_gif_1.gif";
 import calculatorPNG from "../Assets/calculator_1.gif";
 import mountainsGif from "../Assets/mountains_1.gif";
+import punkGif from "../Assets/punkAPI_1.gif";
 export const waveDash = {
     image: waveDashGif,
     title: "waveDash",
@@ -22,4 +23,11 @@ export const mountains = {
     link: "#",
 };
 
-export const projects = [waveDash, calculator, mountains];
+export const punkAPI = {
+    image: punkGif,
+    title: "Brewdog Punk API",
+    tag: "React-based Api",
+    link: "https://conhiggins.github.io/oxnaPunkAPI",
+};
+
+export const projects = [waveDash, calculator, mountains, punkAPI];
