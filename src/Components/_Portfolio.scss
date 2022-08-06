@@ -7,6 +7,16 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    animation: 1s ease spreadPort;
+    &__title {
+    animation: 0.5s ease fade-in; }
+}
+
+@keyframes spreadPort {
+
+    0%{width: 0;
+        height:0;}
+    100%{width:90vw; height:70vh;}  
 }
 
 a {
@@ -21,6 +31,7 @@ a {
     border: 2px solid $font-col;
     border-top: none;
     border-bottom: none;
+    animation: 1.2s ease fade-in;
 }
 
 .portfolio__project-img {
@@ -36,6 +47,7 @@ a {
         padding: 0;
         flex-direction: column;
         align-items: center;
+        animation: none;
     }
 
         .portfolio__title {
@@ -87,6 +99,7 @@ a {
     .portfolio {
         
     flex-direction: row;
+    animation: 1s ease spreadPort;
     }
         .portfolio__title {
             font-size: 3rem;

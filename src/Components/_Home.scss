@@ -3,17 +3,39 @@
 
 
 .home {
-
+    position: relative;
     border-color: $sec-col;
     margin: 1rem;
-    
+    animation: 0.8s ease spread;
+    height: 70vh;
+}
+
+@keyframes spread {
+
+    0%{width: 0;
+        height:0;}
+    100%{width:80vw; height:70vh;}  
+}
+
+@keyframes fade-in {
+    0%{opacity: 0;}
+    80%{opacity: 0;}
+    100%{opacity:1;}
+}
+
+@keyframes slide-in {
+    0%{position: relative; left:-500%;}
+    100%{position: relative; left:0%;}
 }
 
 @media screen and (min-width:320px) {
 
+        .home{animation: none;}
+
         .home__title {
             font-size: 2rem;
             font-family: "Cormorant";
+            animation: 1s ease fade-in ;
             u{ 
                 font-family: "Cormorant";
                 text-underline-offset: 1rem;
@@ -23,12 +45,18 @@
         .home__languages-list {            
             margin-top: 1rem;
             list-style-type: square;
+             animation: 1s ease fade-in ;
+             text-align: center;
+             
             .home__languages-listitem {
                 font-size: 1rem;
+                
             }
         }    
 }
 @media screen and (min-width:768px) {
+
+    .home {animation: 0.8s ease spread;}
 
         .home__title {
             font-size: 3rem;

@@ -17,13 +17,16 @@
 
 @media screen and (min-width:320px) {
     .navbar__link {
+        display: none;
     background: none;
     margin-left: 0.2rem;
     margin-right: 0.2rem;
+    
 }
 }
 @media screen and (min-width:768px) {
     .navbar__link {
+        display: block;
     background: none;
     margin-left: 2rem;
     margin-right: 2rem;
