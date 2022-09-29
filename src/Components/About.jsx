@@ -11,19 +11,33 @@ const About = () => {
             />
             <ul className="about__description">
                 <li className="about__description-item">
-                    Conor Higgins is a 26 year-old Software Developer from the
-                    Peak District, currently studying to become a full-stack
-                    developer with _Nology.
+                    Conor Higgins is a Junior Full-Stack Software Developer from
+                    the Peak District, and recent graduate of{" "}
+                    <a className="nology-link" href="https://nology.io/">
+                        _Nology's
+                    </a>{" "}
+                    full-stack development training course .
+                </li>
+
+                <li className="about__description-item">
+                    In early 2016, inspired by the accessibility of languages
+                    like Ruby, Conor found a passion for programming and
+                    established an independent goal of learning to code.
                 </li>
                 <li className="about__description-item">
-                    Conor began learning programming in early 2016, inspired by
-                    the accessibility of languages like Ruby
+                    Conor was able to develop his skills in frontend web
+                    development and functional programming through work as a
+                    Junior Data Exec in market research, as well as building
+                    various personal projects (including websites, web-based
+                    apps and video games).
                 </li>
                 <li className="about__description-item">
-                    Initially self-taught, Conor found a love for programming
-                    through work as a Junior Data Exec in market research, as
-                    well as building various personal projects including
-                    websites, web-based apps and video games.
+                    Studying with _Nology has enabled Conor to consolidate his
+                    existing knowledge and expand his skill-set, gaining
+                    experience in more advanced areas of programming.
+                    <br /> This included Object-Oriented methodologies,
+                    full-stack websites, Unit Testing, Github Branching, and
+                    other key characteristics of a well-rounded developer.
                 </li>
             </ul>
         </fieldset>

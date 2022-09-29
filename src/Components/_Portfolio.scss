@@ -1,15 +1,18 @@
 @use "../vars.scss" as *;
 
 .portfolio {
-
-    border-color: $alt-col;
     margin: 1rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     animation: 1s ease spreadPort;
+    width: 90vw;
+    border-radius: 1rem;
+    background-color: whitesmoke;
+    box-shadow: 0 0.5rem 0.7rem 0.5rem lightgray, 0 0 0.5rem 0.2rem lightgray inset;
     &__title {
-    animation: 0.5s ease fade-in; }
+    animation: 0.5s ease fade-in; 
+    }
 }
 
 @keyframes spreadPort {
@@ -21,6 +24,7 @@
 
 a {
     text-decoration: none;
+    background: none;
 }
 
 .portfolio__project {
@@ -28,7 +32,9 @@ a {
     display: grid;
     grid-template-rows: 0.25fr 0.25fr 0.25fr 0.25fr;
     grid-template-columns: 0.5fr;
-    border: 2px solid $font-col;
+    border-radius: 1rem;
+    background-color: rgb(235, 232, 232);
+     box-shadow: 0 0.5rem 0.7rem 0.5rem lightgray inset, 0 0 0.5rem 0.2rem lightgray;
     border-top: none;
     border-bottom: none;
     animation: 1.2s ease fade-in;
@@ -41,8 +47,7 @@ a {
 @media screen and (min-width:320px) {
 
     .portfolio {
-        border-left: 0;
-        border-right: 0;
+        border: none;
         margin: 0;
         padding: 0;
         flex-direction: column;
@@ -52,24 +57,25 @@ a {
 
         .portfolio__title {
             font-size: 2rem;
-            font-family: "Cormorant";
+            background: none;
             u{ 
                 text-underline-offset: 1rem;
                 font-size: 2rem;
             }
         }
         .portfolio__project {
-
+            
+            background-color: rgb(235, 232, 232);
             margin: 1.2rem;
             padding: 0.25rem;
 
         }
         .portfolio__project-img {
-
+            background: none;
             max-width: 10rem;
         }
         .portfolio__project-title {
-            font-family: "Cormorant";
+            background: none;
             grid-row: 2;
             font-size: 1.5rem;
         }
@@ -78,20 +84,29 @@ a {
             grid-row: 3;
             font-size: 1rem;
             font-style: italic;
+            background: none;
         }
         .portfolio__button-wrapper {
             grid-row: 4;
+            background: none;
+        }
+        .portfolio__button {
+            width: 4rem;
+            height: 2rem;
+            border-radius: 0.5rem;
+            background-color: whitesmoke;
+            box-shadow: 0 0.5rem 0.7rem 0.5rem lightgray, 0 0 0.5rem 0.2rem lightgray inset;
+            border: none;
+            margin: 0.2rem;
+            transition: background-color 0.3s ease;
 
-            .portfolio__button {
+            &:hover{
+                background-color: rgb(235, 232, 232);
+                box-shadow: 0 0.5rem 0.7rem 0.5rem lightgray inset, 0 0 0.5rem 0.2rem lightgray;
 
-                width: 1.5rem;
-                height: 1.5rem;
-                border-radius: 50%;
-                background: $pri-col;
-                border: none;
-                margin: 0.2rem;
             }
         }
+        
            
 }
 @media screen and (min-width:768px) {
@@ -120,7 +135,6 @@ a {
         }
 
         .portfolio__project-title {
-            font-family: "Cormorant";
         }
 
         .portfolio__project-tagline {
@@ -152,12 +166,15 @@ a {
 
         .portfolio__project-title {
             font-size: 2rem;
+            margin-top: 0.5rem;
         }
 
         .portfolio__project-tagline {
             font-size: 1rem;
+            margin-top: 0.5rem;
         }
         .portfolio__button-wrapper {
+            margin-top: 0.5rem;
         }
     
 }

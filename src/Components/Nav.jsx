@@ -3,25 +3,45 @@ import "./_Nav.scss";
 const Nav = ({ handleChangeComponent }) => {
     return (
         <section className="navbar">
-            <p className="name">Conor Higgins</p>
-            <button
-                className="navbar__link"
-                onClick={() => handleChangeComponent(0)}
-            >
-                Home
-            </button>
-            <button
-                className="navbar__link"
-                onClick={() => handleChangeComponent(1)}
-            >
-                Portfolio
-            </button>
-            <button
-                className="navbar__link"
-                onClick={() => handleChangeComponent(2)}
-            >
-                About
-            </button>
+            <div className="navbar-button-container">
+                <button
+                    className="navbar__link"
+                    onClick={() => handleChangeComponent(0)}
+                >
+                    Home
+                </button>
+                <div className="leaves-container">
+                    <div className="hidden-leaf"></div>
+                    <div className="hidden-leaf"></div>
+                    <div className="hidden-leaf"></div>
+                </div>
+            </div>
+            <div className="navbar-button-container">
+                <button
+                    className="navbar__link"
+                    onClick={() => handleChangeComponent(1)}
+                >
+                    Portfolio
+                </button>
+                <div className="leaves-container">
+                    <div className="hidden-leaf"></div>
+                    <div className="hidden-leaf"></div>
+                    <div className="hidden-leaf"></div>
+                </div>
+            </div>
+            <div className="navbar-button-container">
+                <button
+                    className="navbar__link"
+                    onClick={() => handleChangeComponent(2)}
+                >
+                    About
+                </button>
+                <div className="leaves-container">
+                    <div className="hidden-leaf"></div>
+                    <div className="hidden-leaf"></div>
+                    <div className="hidden-leaf"></div>
+                </div>
+            </div>
         </section>
     );
 };

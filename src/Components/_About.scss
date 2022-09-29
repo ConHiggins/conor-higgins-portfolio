@@ -7,6 +7,17 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    border: none;
+        border-radius: 1rem;
+        box-shadow:  inset 0 0 1rem 0 lightgray, 0.2rem 1rem 1rem 0.5rem lightgray;
+        background-color: whitesmoke;
+}
+
+.nology-link{
+    font-size: 1rem;
+    text-decoration: underline;
+    font-weight: bold;
+    text-underline-offset: 0.5rem;
 }
 
 .about__description {
@@ -19,6 +30,7 @@
     border-bottom: 2px solid $font-col;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    font-weight: bold;
 }
 
 .about__profile-img {
@@ -32,7 +44,6 @@
 
         .about__title {
             font-size: 2rem;
-            font-family: "Cormorant";
             u{ 
                 text-underline-offset: 1rem;
                 font-size: 2rem;
@@ -47,6 +58,11 @@
         .about__description-item {
             font-size: 1rem;
             margin-top: 1rem;
+            padding: 1rem;
+            border: none;
+            border-radius: 1rem;
+            background-color: rgb(235, 232, 232);
+            box-shadow: 0 0.5rem 0.7rem 0.5rem lightgray inset, 0 0 0.5rem 0.2rem lightgray;
         }
 }
 @media screen and (min-width:768px) {

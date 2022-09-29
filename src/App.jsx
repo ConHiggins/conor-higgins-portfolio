@@ -18,7 +18,6 @@ const App = () => {
     };
 
     useEffect(() => {
-        console.log("here");
         setActiveComponent(components[activeIndex]);
     }, [activeIndex]);
 

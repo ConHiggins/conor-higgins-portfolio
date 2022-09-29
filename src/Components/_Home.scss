@@ -1,20 +1,67 @@
 @use "../_vars.scss" as *;
 
-
+.home-container{
+    display: flex;
+    
+}
 
 .home {
     position: relative;
-    border-color: $sec-col;
+    border:none;
+    border-radius: 1rem;
+    background-color: rgb(235, 232, 232);
+     box-shadow: 0 0.5rem 0.7rem 0.5rem lightgray inset, 0 0 0.5rem 0.2rem lightgray;
     margin: 1rem;
     animation: 0.8s ease spread;
     height: 70vh;
+    z-index: 1;
+    
 }
+
+.home__title{
+    position: relative;
+}
+
+
+
+.home__title__leaf{
+    position: absolute;
+    left: 95%;
+    z-index: -1;
+    width: 4rem;
+	height: 4rem;
+	border-radius: 0 70px;
+	background-color: #1f801f;
+	transform: rotate(0deg);
+
+}
+
+.home__title__leaf:nth-child(1){
+        bottom: 30%;
+        transform: rotate(0deg);
+    }
+.home__title__leaf:nth-child(2){
+    background-color: #259925;
+    transform: rotate(-50deg);
+        bottom: 60%;
+    }
+.home__title__leaf:nth-child(3){
+    background-color: #2bb32b;
+    transform: rotate(-70deg);
+        bottom: 90%;
+    }
+
+.lang-icon{
+                width: 2rem;
+                height: auto;
+                background: none;
+            }
 
 @keyframes spread {
 
     0%{width: 0;
         height:0;}
-    100%{width:80vw; height:70vh;}  
+    100%{width:40vw; height:70vh;}  
 }
 
 @keyframes fade-in {
@@ -30,33 +77,48 @@
 
 @media screen and (min-width:320px) {
 
-        .home{animation: none;}
+        .home{
+            animation: none;
+            &-container{
+            flex-direction: column;
+        }
+    }
 
         .home__title {
             font-size: 2rem;
-            font-family: "Cormorant";
             animation: 1s ease fade-in ;
+            padding: 1rem;
+            border-radius: 1rem;
+            background-color: whitesmoke;
+            box-shadow: 0 0.5rem 0.7rem 0.5rem lightgray, 0 0 0.5rem 0.2rem lightgray inset;
             u{ 
-                font-family: "Cormorant";
                 text-underline-offset: 1rem;
                 font-size: 2rem;
+                background: none;
             }
         }
         .home__languages-list {            
             margin-top: 1rem;
-            list-style-type: square;
+            list-style-type: none;
              animation: 1s ease fade-in ;
-             text-align: center;
+
+             border-radius: 1rem;
+             background-color: rgb(235, 232, 232);
+            box-shadow: 0 0.5rem 0.7rem 0.5rem lightgray inset, 0 0 0.5rem 0.2rem lightgray;
              
             .home__languages-listitem {
                 font-size: 1rem;
-                
+                background: none;
+                font-weight: bold;
             }
         }    
 }
 @media screen and (min-width:768px) {
 
-    .home {animation: 0.8s ease spread;}
+    .home {
+        animation: 0.8s ease spread;
+    
+}
 
         .home__title {
             font-size: 3rem;
@@ -75,6 +137,15 @@
 }
 @media screen and (min-width:1024px) {
 
+    .home{
+        width: 40vw;
+        padding-bottom: 3rem;
+
+        &-container{
+            flex-direction: row;
+        }
+    }
+
         .home__title {
         font-size: 4rem;
         u{ 
@@ -82,6 +153,28 @@
             font-size: 4rem;
         }
     }
+
+    .home__subtitle{
+        background: none;
+        font-style: italic;
+    }
+    .languages-frameworks{
+        margin-top: 2rem;
+        background: none;
+    }
+    .home__languages-list {            
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-top: 0;
+            width: 70%;
+            .home__languages-listitem {
+                font-size: 1.75rem;
+                margin: 1rem;
+            }
+
+            
+        } 
     
 }
 

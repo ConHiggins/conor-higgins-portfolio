@@ -12,6 +12,7 @@ export const palette = {
     title: "Colour Palette Generator",
     tag: "Full stack React/Java/SQL app",
     link: "#",
+    repo: "#",
 };
 
 export const waveDash = {
@@ -19,6 +20,7 @@ export const waveDash = {
     title: "waveDash",
     tag: "JavaScript game",
     link: "https://conhiggins.github.io/oxnaGame/",
+    repo: "https://github.com/ConHiggins/oxnaGame/",
 };
 
 export const calculator = {
@@ -26,6 +28,7 @@ export const calculator = {
     title: "Calculator",
     tag: "JavaScript web app",
     link: "https://conhiggins.github.io/oxnaCalculator/",
+    repo: "https://github.com/ConHiggins/oxnaCalculator",
 };
 
 export const mountains = {
@@ -33,6 +36,7 @@ export const mountains = {
     title: "Mountains at Dusk",
     tag: "Three.js environment",
     link: "#",
+    repo: "#",
 };
 
 export const punkAPI = {
@@ -40,27 +44,31 @@ export const punkAPI = {
     title: "Brewdog Punk API",
     tag: "React API app",
     link: "https://conhiggins.github.io/oxnaPunkAPI",
+    repo: "https://github.com/ConHiggins/oxnaPunkAPI",
 };
 
 export const ticketSystem = {
     image: ticketGif,
-    title: "Basic ticketing system",
-    tag: "React app",
+    title: "Basic Ticket System",
+    tag: "Practice React app",
     link: "https://conhiggins.github.io/oxnaTicketSystem",
+    repo: "https://github.com/ConHiggins/oxnaTicketSystem",
 };
 
 export const hangman = {
     image: hangmanPNG,
-    title: "Hangman terminal game",
+    title: "Hangman Terminal Game",
     tag: "Java terminal app",
     link: "#",
+    repo: "#",
 };
 
 export const snap = {
     image: snapPNG,
-    title: "Snap terminal game",
+    title: "Snap Terminal Game",
     tag: "Java terminal app",
     link: "#",
+    repo: "#",
 };
 
 export const projects = [
