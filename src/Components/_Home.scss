@@ -13,7 +13,6 @@
      box-shadow: 0 0.5rem 0.7rem 0.5rem lightgray inset, 0 0 0.5rem 0.2rem lightgray;
     margin: 1rem;
     animation: 0.8s ease spread;
-    height: 70vh;
     z-index: 1;
     
 }
@@ -90,7 +89,7 @@
             padding: 1rem;
             border-radius: 1rem;
             background-color: whitesmoke;
-            box-shadow: 0 0.5rem 0.7rem 0.5rem lightgray, 0 0 0.5rem 0.2rem lightgray inset;
+            box-shadow: 0 0.5rem 0.7rem 0.5rem rgba(211, 211, 211,0.8), 0 0 0.5rem 0.2rem lightgray inset;
             u{ 
                 text-underline-offset: 1rem;
                 font-size: 2rem;
