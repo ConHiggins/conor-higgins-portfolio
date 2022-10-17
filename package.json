@@ -12,7 +12,7 @@
     "three": "^0.142.0",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://conhiggins.github.io/oxnaReactPortfolio",
+  "homepage": "https://conhiggins.github.io/conor-higgins-portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
