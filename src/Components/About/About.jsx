@@ -1,5 +1,5 @@
 import "./_About.scss";
-import profileImg from "../Assets/profile.png";
+import profileImg from "../../Assets/profile.png";
 const About = () => {
     return (
         <fieldset className="about">

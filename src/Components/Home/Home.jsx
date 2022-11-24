@@ -1,6 +1,5 @@
 import "./_Home.scss";
-import Canvas from "./Canvas.jsx";
-import Showcase from "./Showcase/Showcase";
+import Showcase from "../Showcase/Showcase";
 
 const Home = () => {
     return (

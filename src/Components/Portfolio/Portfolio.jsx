@@ -1,7 +1,6 @@
 import "./_Portfolio.scss";
-import waveDashGif from "../Assets/waveDash_gif_1.gif";
 
-import { projects } from "../Data/projects";
+import { projects } from "../../Data/projects";
 
 const Portfolio = () => {
     let projDisplay = [];

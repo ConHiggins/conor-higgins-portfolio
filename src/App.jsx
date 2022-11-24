@@ -1,9 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Nav from "./Components/Nav.jsx";
-import Home from "./Components/Home.jsx";
-import Portfolio from "./Components/Portfolio";
-import About from "./Components/About";
+import Home from "./Components/Home/Home";
+import Portfolio from "./Components/Portfolio/Portfolio";
+import About from "./Components/About/About";
 import { useEffect, useState } from "react";
 
 const App = () => {
