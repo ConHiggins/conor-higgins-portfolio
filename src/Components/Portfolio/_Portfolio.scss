@@ -32,6 +32,7 @@ a {
     display: grid;
     grid-template-rows: 0.25fr 0.25fr 0.25fr 0.25fr;
     grid-template-columns: 0.5fr;
+    gap: 0.5rem;
     border-radius: 1rem;
     background-color: rgb(235, 232, 232);
      box-shadow: 0 0.5rem 0.7rem 0.5rem lightgray inset, 0 0 0.5rem 0.2rem lightgray;
@@ -67,8 +68,8 @@ a {
             
             background-color: rgb(235, 232, 232);
             margin: 1.2rem;
-            padding: 0.25rem;
-
+            padding: 16vw;
+            
         }
         .portfolio__project-img {
             background: none;
@@ -78,6 +79,7 @@ a {
             background: none;
             grid-row: 2;
             font-size: 1.5rem;
+            font-weight: bold;
         }
 
         .portfolio__project-tagline {
@@ -86,12 +88,18 @@ a {
             font-style: italic;
             background: none;
         }
-        .portfolio__button-wrapper {
+
+        .portfolio__project-time{
             grid-row: 4;
+            font-size: 1rem;
+            background: none;
+        }
+        .portfolio__button-wrapper {
+            grid-row: 5;
             background: none;
         }
         .portfolio__button {
-            width: 4rem;
+            width: 100%;
             height: 2rem;
             border-radius: 0.5rem;
             background-color: whitesmoke;
@@ -99,6 +107,7 @@ a {
             border: none;
             margin: 0.2rem;
             transition: background-color 0.3s ease;
+            font-weight: bold;
 
             &:hover{
                 background-color: rgb(235, 232, 232);

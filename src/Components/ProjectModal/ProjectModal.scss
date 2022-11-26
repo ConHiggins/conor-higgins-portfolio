@@ -1,0 +1,130 @@
+@media screen and (min-width:320px) {
+
+
+.project{
+
+    &-container{
+        scroll-behavior: smooth;
+        overflow-y: auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 2rem;
+    width: 80vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 0.25fr 0.25fr 0.25fr 0.25fr;
+    grid-template-columns: 1fr;
+	background-color: #2e2e2e;
+    animation: 0.8s ease spread;
+    z-index: 100;
+    }
+    &-background{
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    filter: blur(8px);
+    z-index: -100;
+    opacity: 0.2;
+    }
+
+    &-title{
+    background: none;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2rem;
+    }
+    &-tagline{
+    background: none;
+    color: whitesmoke;
+    text-align: center;
+    }
+    &-description{
+    background: none;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 1rem;
+    }
+}
+
+@keyframes spread {
+
+    0%{
+        top: 100%;
+        opacity: 0;
+    }
+    100%{
+        
+    }
+    
+}
+
+.close-project{
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 2rem;
+    border: none;
+    background-color: #2e2e2e;
+    color: whitesmoke;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    text-align: center;
+    align-items: center;
+
+    &:hover{
+        background-color: whitesmoke;
+        color: #2e2e2e;
+    }
+}
+
+.project-img {
+    border-radius: 0.5rem;
+    width: 80vw;
+}
+}
+
+@media screen and (min-width:768px) {
+
+    @keyframes spread {
+
+    0%{
+        left: -100%;
+        opacity: 0;
+    }
+    100%{
+        
+    }
+    
+}
+
+    .project{
+
+    &-container{
+        width: 60vw;
+
+    }
+    &-img{
+        width: 60vw;
+    }
+}
+}
+@media screen and (min-width:1024px) {
+
+    .project{
+
+    &-container{
+        
+        width: 40vw;
+
+    }
+    &-img{
+        width: 40vw;
+    }
+}
+}

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/conor-higgins-portfolio/static/css/main.90852e70.css",
-    "main.js": "/conor-higgins-portfolio/static/js/main.495a3aed.js",
+    "main.js": "/conor-higgins-portfolio/static/js/main.ad95b972.js",
     "static/js/787.1ed0c42c.chunk.js": "/conor-higgins-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/mountains_1.gif": "/conor-higgins-portfolio/static/media/mountains_1.9dd8ddb91ec9aad81a8b.gif",
     "static/media/punkAPI_1.gif": "/conor-higgins-portfolio/static/media/punkAPI_1.95686d65514caaa5a365.gif",
@@ -13,11 +13,11 @@
     "static/media/logo.svg": "/conor-higgins-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/conor-higgins-portfolio/index.html",
     "main.90852e70.css.map": "/conor-higgins-portfolio/static/css/main.90852e70.css.map",
-    "main.495a3aed.js.map": "/conor-higgins-portfolio/static/js/main.495a3aed.js.map",
+    "main.ad95b972.js.map": "/conor-higgins-portfolio/static/js/main.ad95b972.js.map",
     "787.1ed0c42c.chunk.js.map": "/conor-higgins-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.90852e70.css",
-    "static/js/main.495a3aed.js"
+    "static/js/main.ad95b972.js"
   ]
 }
