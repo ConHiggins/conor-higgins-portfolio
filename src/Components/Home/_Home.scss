@@ -11,7 +11,6 @@
     border-radius: 1rem;
     background-color: rgb(235, 232, 232);
      box-shadow: 0 0.5rem 0.7rem 0.5rem lightgray inset, 0 0 0.5rem 0.2rem lightgray;
-    margin: 1rem;
     animation: 0.8s ease spread;
     z-index: 1;
     
@@ -100,10 +99,7 @@
             margin-top: 1rem;
             list-style-type: none;
              animation: 1s ease fade-in ;
-
-             border-radius: 1rem;
              background-color: rgb(235, 232, 232);
-            box-shadow: 0 0.5rem 0.7rem 0.5rem lightgray inset, 0 0 0.5rem 0.2rem lightgray;
              
             .home__languages-listitem {
                 font-size: 1rem;
